@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <Deterministic>false</Deterministic>
+    <Version>0.0.2</Version>
+    <Authors>Panagiotis Katsampiris</Authors>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageReleaseNotes>updated</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/lostinmyworld/packages.Api.Responses</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="packages.Api.Enums" Version="0.0.1" />
+  </ItemGroup>
 
 </Project>
