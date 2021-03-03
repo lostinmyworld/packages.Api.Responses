@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "packages.Api.Responses", "packages.Api.Responses.csproj", "{24518134-F299-4090-B8C2-7B4F3670811C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "packages.Api.Enums", "..\packages.Api.Enums\packages.Api.Enums.csproj", "{AD68A6F4-E754-42FE-B12A-540799E83B1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24518134-F299-4090-B8C2-7B4F3670811C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24518134-F299-4090-B8C2-7B4F3670811C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24518134-F299-4090-B8C2-7B4F3670811C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24518134-F299-4090-B8C2-7B4F3670811C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD68A6F4-E754-42FE-B12A-540799E83B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD68A6F4-E754-42FE-B12A-540799E83B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD68A6F4-E754-42FE-B12A-540799E83B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD68A6F4-E754-42FE-B12A-540799E83B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB2E0681-B368-407F-BB52-B28655494A68}
+	EndGlobalSection
+EndGlobal
