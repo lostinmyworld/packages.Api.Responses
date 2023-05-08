@@ -1,13 +1,6 @@
-﻿namespace packages.Api.Enums
+﻿namespace packages.Api.Responses.Enums
 {
-    public enum ResponseCode
-    {
-        Ambiguous,
-        Valid,
-        Invalid
-    }
-
-    public enum ErrorCodeEnum
+    public enum ErrorCode
     {
         Unexpected,
         RequestParameterNull,

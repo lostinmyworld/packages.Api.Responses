@@ -1,8 +1,8 @@
-﻿using packages.Api.Enums;
+﻿using packages.Api.Responses.Enums;
 
 namespace packages.Api.Responses
 {
-    public static class Helpers
+    public static class Extensions
     {
         public static int GetPageOrDefault(this PageSettings pageSettings, int? currentPage)
         {
@@ -20,7 +20,8 @@ namespace packages.Api.Responses
         {
             if (howMany.HasValue)
             {
-                if (pageSettings?.MaxPageSize > 0 && howMany.Value > pageSettings.MaxPageSize)
+                if (pageSettings?.MaxPageSize > 0
+                    && howMany.Value > pageSettings.MaxPageSize)
                 {
                     return pageSettings.MaxPageSize;
                 }
@@ -35,9 +36,9 @@ namespace packages.Api.Responses
                 : 100;
         }
 
-        public static string GetErrorType(this ErrorCodeEnum errorCodeEnum)
+        public static string GetErrorType(this ErrorCode errorCode)
         {
-            return $"{(int)errorCodeEnum}";
+            return $"{(int)errorCode}";
         }
     }
 }

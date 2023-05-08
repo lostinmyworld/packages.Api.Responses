@@ -4,6 +4,6 @@ namespace packages.Api.Responses
 {
     public class PagedResult<T> : PagedResultBase
     {
-        public List<T> Items { get; set; } = new List<T>();
+        public List<T> Items { get; set; } = new();
     }
 }
